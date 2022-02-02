@@ -1,0 +1,200 @@
+.logincomponent {
+    background: url("../public/images/meme-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgb(236, 212, 175);
+    height: 100vh;
+    padding-top: 200px;
+}
+.logincomponent .formcol {
+    /* background-color: #ed6195; */
+    background-color: rgb(228, 180, 108);
+    box-shadow: 0 0 0 3px grey;
+    border-radius: 5px;
+    /* padding-top: 20px;
+    padding-bottom: 40px; */
+    padding: 30px 30px 40px 30px;
+}
+.logincomponent .inputformat {
+    border-top: 0;
+    border-left: 0; 
+    border-right: 0;
+    background-color: rgb(250, 248, 245);
+    font-size: calc(75% + 0.3vw + 0.3vh);
+}
+.logincomponent .loginheading {
+    font-size: calc(100% + 1vw + 1vh);
+    font-weight: bold;
+}
+.logincomponent .btnlogin {
+    background-color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    border-color: black;
+    font-size: calc(75% + 0.2vw + 0.2vh);
+    padding: 9px;
+    color: white;
+}
+.logincomponent .btnlogin:hover {
+    background-color: rgb(44, 42, 42);
+    border-color: rgb(44, 42, 42);
+}
+.logincomponent .btnlogin:focus {
+    background-color: rgb(44, 42, 42);
+    border-color: rgb(44, 42, 42);
+}
+.logincomponent .heading {
+    font-size: calc(80% + 1vw + 1vh);
+    font-weight: bold;
+}
+.logincomponent .btn-main {
+    font-size: calc(75% + 0.2vw + 0.2vh);
+}
+.logincomponent .num {
+    padding-right: 0;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .logincomponent {
+        padding-left: 5%;
+        padding-right: 5%;
+        background-size: 100% 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logincomponent {
+        padding-left: 8%;
+        padding-right: 8%;
+        background-size: 100% 70%;
+    }
+}
+
+.meme-page {
+    background-color: rgb(236, 212, 175);
+}
+
+.meme-row-dashboard {
+    background-color: rgb(236, 212, 175);
+}
+
+.meme-img {
+    width: 80%;
+    height: 80%;
+    border: 3px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+/* .meme-col-img {
+    width: 80%;
+    height: 80%;
+    border: 3px solid black;
+    box-shadow: 0 0 5px black;
+} */
+
+.meme{
+    width: 40%;
+    height: auto;
+    border: 3px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+.meme-row {
+    position: relative;
+}
+
+.meme-col {
+    position: relative;
+}
+
+/* .top {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    color: red;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+    color: red;
+} */
+
+.top-h2 {
+    position: absolute;
+    top: 70px;
+    color: red;
+}
+
+.bottom-h2 {
+    position: absolute;
+    bottom: 30px;
+    color: red;
+} 
+
+/* @media screen and (max-width: 576px) {
+    .top {
+        position: absolute;
+        top: 30px;
+        left: 100px;
+    }
+    
+    .bottom {
+        position: absolute;
+        bottom: 30px;
+        left: 100px;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    .meme {
+        width: 80%;
+        height: auto;
+    }
+    /* .top {
+        position: absolute;
+        top: 30px;
+        left: 200px;
+    }
+    
+    .bottom {
+        position: absolute;
+        bottom: 30px;
+        left: 200px;
+    } */
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .meme {
+        width: 60%;
+        height: auto;
+    }
+}
+
+.meme-img:hover {
+    transform: scale(1.2);
+    -webkit-transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.form {
+    width: 45%;
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .meme {
+        width: 60%;
+        height: auto;
+    }
+    .form {
+        width: 65%;
+    }
+}
+
